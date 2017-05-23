@@ -42,12 +42,11 @@ public class MainActivity extends Activity {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    String api = "2884e0e33c8700895eb03582b8641712";
                     String a = "ea574594b9d36ab688642d5fbeab847e";
                     String ci = "3691175";
                     String lat="-7.1639629";
                     String lon="-78.50";
-                    URL url1 = new URL("http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&APPID=2884e0e33c8700895eb03582b8641712");
+                    URL url1 = new URL("http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&APPID="+a"");
 
                     URL url = new URL("http://api.openweathermap.org/data/2.5/weather?id="+ci+"&APPID=ea574594b9d36ab688642d5fbeab847e");
 
